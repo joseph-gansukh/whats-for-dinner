@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactModal from 'react-modal';
 
+ReactModal.setAppElement(document.getElementById('root'));
+
 const Modal = (props) => (
   <ReactModal
-    isOpen={props.selectedOption}
+    isOpen={!!props.selectedOption}
     onRequestClose={props.handleClearSelection}
     contentLabel={`Selected option is ${props.selectedOption}`}
     closeTimeoutMS={50}
