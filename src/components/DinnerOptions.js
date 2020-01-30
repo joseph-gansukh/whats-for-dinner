@@ -6,8 +6,13 @@ export default function DinnerOptions(props) {
     <div>
       <button onClick={props.handleRemoveAll}>Remove All</button>
       {props.options.map(option => (
-        <DinnerOption key={option} dinner={option} />
+        <DinnerOption 
+          key={option} 
+          dinner={option} 
+          handleRemoveOption={props.handleRemoveOption}
+        />
       ))}
     </div>
   )
 }
+        
