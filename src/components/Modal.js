@@ -10,7 +10,7 @@ const Modal = (props) => (
     contentLabel={`Selected option is ${props.selectedOption}`}
     closeTimeoutMS={50}
   >
-    <h2>Selected Option</h2>
+    <h2>Randomly Selected Option</h2>
     <p>{props.selectedOption}</p>
     <button 
       onClick={props.handleClearSelection}

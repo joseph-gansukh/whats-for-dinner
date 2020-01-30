@@ -42,7 +42,7 @@ export default class App extends Component {
 
   handleNewOption = (option) => {
     if (!option) {
-      return 'Please enter valid option.'
+      return 'Please enter a valid option.'
     } else if (this.state.options.indexOf(option) > -1) {
       return 'This option already exists. Please enter a different option.'
     }
