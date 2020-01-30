@@ -29,6 +29,12 @@ export default class App extends Component {
       localStorage.setItem('options', options)
     }
   }
+
+  handleRemoveOption = (optionToRemove) => {
+    this.setState(() => ({ options: this.state.options.filter(option => {
+      return optionToRemove !== option
+    })}))
+  }
   
   handleRemoveAll = () => {
     this.setState(() => ({ options: [] }))
@@ -64,6 +70,7 @@ export default class App extends Component {
         <DinnerOptions 
           options={this.state.options}
           handleRemoveAll={this.handleRemoveAll}
+          handleRemoveOption={this.handleRemoveOption}
         />
         <NewOption 
           handleNewOption={this.handleNewOption}
