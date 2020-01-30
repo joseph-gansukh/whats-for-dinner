@@ -7,10 +7,33 @@ import Modal from './Modal'
 
 export default class App extends Component {
   state = {
-    options: ['Spaghetti', 'Fried Rice', 'Steak'],
+    options: [],
     selectedOption: undefined
   }
+
+  componentDidMount() {
+    try {
+      const json = localStorage.getItem('options')
+      const options = JSON.parse(json)
+
+      if (options) {
+        this.setState(() => ({ options }))
+      }
+    } catch (error) {
+    }
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if(prevState.options.length !== this.state.options.length) {
+      const options = JSON.stringify(this.state.options)
+      localStorage.setItem('options', options)
+    }
+  }
   
+  handleRemoveAll = () => {
+    this.setState(() => ({ options: [] }))
+  }
+
   handleNewOption = (option) => {
     if (!option) {
       return 'Please enter valid option.'
@@ -38,7 +61,10 @@ export default class App extends Component {
         <Action 
           handlePick={this.handlePick}
         />
-        <DinnerOptions options={this.state.options}/>
+        <DinnerOptions 
+          options={this.state.options}
+          handleRemoveAll={this.handleRemoveAll}
+        />
         <NewOption 
           handleNewOption={this.handleNewOption}
         />
