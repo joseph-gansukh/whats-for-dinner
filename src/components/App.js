@@ -66,6 +66,7 @@ export default class App extends Component {
         <Header />
         <Action 
           handlePick={this.handlePick}
+          hasOptions={this.state.options.length > 1}
         />
         <DinnerOptions 
           options={this.state.options}

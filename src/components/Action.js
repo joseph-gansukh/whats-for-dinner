@@ -5,6 +5,7 @@ export default function Action(props) {
     <div>
       <button 
         onClick={props.handlePick}
+        disabled={!props.hasOptions}
       >
         Choose for me!
       </button>
