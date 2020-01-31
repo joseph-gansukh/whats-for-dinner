@@ -16,10 +16,10 @@ export class NewOption extends Component {
   render() {
     return (
       <div>
-        {this.state.error && <p>{this.state.error}</p>}
-        <form onSubmit={this.handleSubmit}>
-          <input type="text" name="option"/>
-          <button>
+        {this.state.error && <p className="new-option-error">{this.state.error}</p>}
+        <form className="new-option" onSubmit={this.handleSubmit}>
+          <input className="new-option__input" type="text" name="option"/>
+          <button className="button">
             Add option
           </button>
         </form>

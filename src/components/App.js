@@ -64,18 +64,22 @@ export default class App extends Component {
     return (
       <div>
         <Header />
-        <Action 
-          handlePick={this.handlePick}
-          hasOptions={this.state.options.length > 1}
-        />
-        <DinnerOptions 
-          options={this.state.options}
-          handleRemoveAll={this.handleRemoveAll}
-          handleRemoveOption={this.handleRemoveOption}
-        />
-        <NewOption 
-          handleNewOption={this.handleNewOption}
-        />
+        <div className="container">
+          <Action 
+            handlePick={this.handlePick}
+            hasOptions={this.state.options.length > 1}
+          />
+          <div className="widget">
+            <DinnerOptions 
+              options={this.state.options}
+              handleRemoveAll={this.handleRemoveAll}
+              handleRemoveOption={this.handleRemoveOption}
+            />
+            <NewOption 
+              handleNewOption={this.handleNewOption}
+            />
+          </div>
+        </div>
         <Modal 
           selectedOption={this.state.selectedOption}
           handleClearSelection={this.handleClearSelection}
