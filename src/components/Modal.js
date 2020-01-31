@@ -9,10 +9,12 @@ const Modal = (props) => (
     onRequestClose={props.handleClearSelection}
     contentLabel={`Selected option is ${props.selectedOption}`}
     closeTimeoutMS={50}
+    className="modal"
   >
-    <h2>Randomly Selected Option</h2>
-    <p>{props.selectedOption}</p>
+    <h2 className="modal__title">Randomly Selected Option:</h2>
+    <p className="modal__body">{props.selectedOption}</p>
     <button 
+      className="button"
       onClick={props.handleClearSelection}
     >
       Close
