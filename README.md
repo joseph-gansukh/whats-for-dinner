@@ -2,6 +2,8 @@
 
 Almost every day, my wife and I have this exact same question of what to do for dinner. So I decided to make this small web app to help us decide by randomly selecting one of the choices. 
 
+![whatsfordinner.png](images/whatsfordinner.png)
+
 Built with: 
   - React JS
   - SCSS
