@@ -10,6 +10,10 @@
   border-radius: 20px;
 }
 
+.big-button:focus {
+  outline: none;
+}
+
 .big-button:disabled {
   opacity: .5;
 }
@@ -22,6 +26,10 @@
   font-weight: 500;
   padding: $s-size;
   border-radius: 10px;
+}
+
+.button:focus {
+  outline: none;
 }
 
 .button--link {
