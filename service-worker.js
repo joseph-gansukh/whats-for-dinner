@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/whats-for-dinner/precache-manifest.734ff366232b4df639ac4d948703f443.js"
+  "/whats-for-dinner/precache-manifest.5c41491897616acb470e58eecdaa3c16.js"
 );
 
 self.addEventListener('message', (event) => {
