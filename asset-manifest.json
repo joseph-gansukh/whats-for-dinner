@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/whats-for-dinner/static/css/main.a7f943d4.chunk.css",
+    "main.css": "/whats-for-dinner/static/css/main.a95eeff1.chunk.css",
     "main.js": "/whats-for-dinner/static/js/main.45b27c6e.chunk.js",
     "main.js.map": "/whats-for-dinner/static/js/main.45b27c6e.chunk.js.map",
     "runtime-main.js": "/whats-for-dinner/static/js/runtime-main.026e1b2d.js",
@@ -9,17 +9,17 @@
     "static/js/2.7bd65750.chunk.js": "/whats-for-dinner/static/js/2.7bd65750.chunk.js",
     "static/js/2.7bd65750.chunk.js.map": "/whats-for-dinner/static/js/2.7bd65750.chunk.js.map",
     "index.html": "/whats-for-dinner/index.html",
-    "precache-manifest.f8b684280d4c5795f504aced5b565ca2.js": "/whats-for-dinner/precache-manifest.f8b684280d4c5795f504aced5b565ca2.js",
+    "precache-manifest.734ff366232b4df639ac4d948703f443.js": "/whats-for-dinner/precache-manifest.734ff366232b4df639ac4d948703f443.js",
     "service-worker.js": "/whats-for-dinner/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/whats-for-dinner/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.a7f943d4.chunk.css.map": "/whats-for-dinner/static/css/main.a7f943d4.chunk.css.map",
+    "static/css/main.a95eeff1.chunk.css.map": "/whats-for-dinner/static/css/main.a95eeff1.chunk.css.map",
     "static/js/2.7bd65750.chunk.js.LICENSE": "/whats-for-dinner/static/js/2.7bd65750.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.026e1b2d.js",
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.7bd65750.chunk.js",
-    "static/css/main.a7f943d4.chunk.css",
+    "static/css/main.a95eeff1.chunk.css",
     "static/js/main.45b27c6e.chunk.js"
   ]
 }
