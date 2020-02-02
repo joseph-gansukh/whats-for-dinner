@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c78e1d88f5374aab7e09b485b08a43a",
+    "revision": "9ca59c1c846c03f9bf896ad248b4eedb",
     "url": "/whats-for-dinner/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whats-for-dinner/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "7605d9eb1d1531ec459b",
-    "url": "/whats-for-dinner/static/css/main.a95eeff1.chunk.css"
+    "revision": "14ba75e9e9c8bd87a9ef",
+    "url": "/whats-for-dinner/static/css/main.b8694051.chunk.css"
   },
   {
     "revision": "c51ef039b2f3287c3365",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whats-for-dinner/static/js/2.7bd65750.chunk.js.LICENSE"
   },
   {
-    "revision": "7605d9eb1d1531ec459b",
+    "revision": "14ba75e9e9c8bd87a9ef",
     "url": "/whats-for-dinner/static/js/main.45b27c6e.chunk.js"
   },
   {
