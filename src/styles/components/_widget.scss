@@ -2,6 +2,7 @@
 .widget {
   background: $light-blue;
   margin-bottom: $xl-size;
+  border-radius: 10px;
 }
 
 .widget__message {
@@ -14,6 +15,7 @@
 
 // Widget Header
 .widget-header {
+  border-radius: 10px 10px 0px 0px;
   background: $blue;
   color: $off-white;
   display: flex;
