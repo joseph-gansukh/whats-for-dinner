@@ -17,7 +17,7 @@ const Modal = (props) => (
       className="button"
       onClick={props.handleClearSelection}
     >
-      Close
+      Click Here To Close
     </button>
   </ReactModal>
 )
