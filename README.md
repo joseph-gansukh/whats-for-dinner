@@ -10,6 +10,8 @@ Built with:
   - React JS
   - SCSS
 
+Deployed on Github-Pages. 
+
 ## Getting Started
   1. Install all dependencies
         ### npm install
