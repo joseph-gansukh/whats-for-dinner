@@ -40,6 +40,7 @@ export default class App extends Component {
     this.setState(() => ({ options: [] }))
   }
 
+  // adds new option
   handleNewOption = (option) => {
     if (!option) {
       return 'Please enter a valid option.'
